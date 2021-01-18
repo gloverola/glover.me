@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { FiExternalLink } from "react-icons/fi";
+import { IoMdArrowDropright } from "react-icons/io";
 import { graphql, useStaticQuery } from "gatsby";
 import styled from 'styled-components';
 import { motion, useAnimation } from "framer-motion";
@@ -98,7 +98,7 @@ const Jobs = () => {
             return (
               <Description key={item.id}>
                 <span>
-                  <FiExternalLink />
+                  <IoMdArrowDropright />
                 </span>
 
                 <p>{item.name}</p>
