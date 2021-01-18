@@ -1,0 +1,42 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Portfolio",
+  "author": "copdev",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "framer-motion": "^3.2.1",
+    "gatsby": "^2.30.3",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-offline": "^3.8.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sharp": "^2.12.2",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-plugin-styled-components": "^3.8.0",
+    "gatsby-source-filesystem": "^2.9.1",
+    "gatsby-source-hashnode": "^0.2.0",
+    "gatsby-source-strapi": "0.0.12",
+    "gatsby-transformer-sharp": "^2.10.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-intersection-observer": "^8.31.0",
+    "react-multi-carousel": "^2.6.1",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.2.1"
+  }
+}
