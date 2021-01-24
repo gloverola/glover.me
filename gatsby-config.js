@@ -28,7 +28,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "files",
-        path: "./static/Glover_Resume.pdf",
+        path: "./static/OLAOLUWA_GLOVER_RESUME.pdf",
       },
       __key: "files",
     },

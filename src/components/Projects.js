@@ -199,7 +199,7 @@ const ProjectDesc = styled.div`
   padding: 1rem;
   position: absolute;
   width: 100%;
-  height: 100px;
+  height: 110px;
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
